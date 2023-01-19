@@ -1,0 +1,40 @@
+body {
+    background: #ececec;
+    font-family: "proxima-nova-soft", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #385170;
+  }
+  
+  textarea {
+    flex: 1;
+    width: 500px;
+    height: 200px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+  }
+  
+  .button {
+    border: 0;
+    text-align: center;
+    display: inline-block;
+    padding: 14px;
+    width: 150px;
+    margin: 7px;
+    color: #ffffff;
+    background-color: #385170;
+    border-radius: 8px;
+    font-weight: 800;
+    text-decoration: none;
+    transition: box-shadow 200ms ease-out;
+  }

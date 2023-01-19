@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>App de Notas</title>
+</head>
+<body>
+    <body>
+        <h1>Aplicativo de Notas</h1>
+        <form>
+          <textarea id="note-input" style="resize: none"></textarea>
+          <br>
+          <button class="button" type="button" onclick="saveNote()">Salvar Nota</button>
+          <button class="button" type="button" onclick="clearNotes()">Limpar Notas</button>
+          <button class="button" type="button" onclick="downloadNotes()">Download</button>
+    
+        </form>
+        <br>
+        <div id="note-output"></div>
+</body>
+<script src="/app.js"></script>
+</html>
